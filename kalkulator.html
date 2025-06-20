@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Sederhana</title>
+</head>
+<body>
+    <h2>Kalkulator Aritmatika Sederhana</h2>
+    <form action="kalkulator.php" method="post">
+        <label for="angka1">Angka Pertama:</label>
+        <input type="number" name="angka1" id="angka1" required>
+        <br><br>
+        
+        <label for="angka2">Angka Kedua:</label>
+        <input type="number" name="angka2" id="angka2" required>
+        <br><br>
+        
+        <label for="operasi">Pilih Operasi:</label>
+        <select name="operasi" id="operasi" required>
+            <option value="tambah">Penjumlahan (+)</option>
+            <option value="kurang">Pengurangan (-)</option>
+            <option value="kali">Perkalian (×)</option>
+            <option value="bagi">Pembagian (÷)</option>
+        </select>
+        <br><br>
+        
+        <input type="submit" value="Hitung">
+    </form>
+</body>
+</html>
